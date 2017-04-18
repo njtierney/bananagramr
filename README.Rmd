@@ -1,7 +1,5 @@
 ---
-output:
-  md_document:
-    variant: markdown_github
+output: github_document
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -21,7 +19,7 @@ been fine if we just randomly split them.
 
 # installing bananagramr
 
-```{r install}
+```{r install, eval = FALSE}
 
 #install.packages("devtools")
 
