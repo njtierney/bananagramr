@@ -1,0 +1,43 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# bananagramr
+
+The goal of bananagramr is to explore whether our bags of bananagrams would have
+been fine if we just randomly split them.
+
+# installing bananagramr
+
+```{r install}
+
+#install.packages("devtools")
+
+devtools::install_github("njtierney/bananagramr")
+
+```
+
+## The story
+
+I was at a party and we combined two packets of bananagrams to play a big game, but then when we came to putting them back together we wanted to just randomly split them. I understood that this should be fine, but I wanted to be sure. Naturally, everyone was super thrilled when I demanded that we count up all the tiles and record the number in each letter for each of the randomly chosen tiles.
+
+I promised my friends that I'd write about this process, and I like writing R packages as analyses, so this seemed like a good idea. The data can be accessed using
+
+```{r use}
+library(bananagramr)
+
+dat_bananagram
+```
+

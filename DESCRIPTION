@@ -1,0 +1,17 @@
+Package: bananagramr
+Type: Package
+Title: An Analysis-as-a-package for comparing counts of letters in Bananagrams
+Version: 0.1.0
+Author: Nicholas Tierney
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: I was at a party and my friend wanted to split two bags of banagrams
+    by just shuffling the tiles and putting half in a bag. I understood that
+    theoretically this should be fine. But I wanted to investigate further.
+Depends:
+    R (>= 2.10)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1.9000
+Imports: tibble
